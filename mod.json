@@ -1,0 +1,15 @@
+{
+    "Name": "fvnknoots.PureMode",
+    "Description": "Purist mod for Northstar",
+    "Version": "1.0.0",
+    "LoadPriority": 1,
+    "Scripts": [
+        {
+            "Path": "puremode.nut",
+            "RunOn": "SERVER",
+            "ServerCallback": {
+                "After": "PureMode_Init"
+            }
+        }
+    ]
+}
