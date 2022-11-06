@@ -9,4 +9,5 @@ Purist mod for Northstar
  * No melee
  * No boosts
  * No titans
+ * No weapon pickups
  * No aim assist

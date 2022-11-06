@@ -3,6 +3,7 @@ global function PureMode_Changes
 
 void function PureMode_Init()
 {
+    SetWeaponDropsEnabled(false)
     Riff_ForceBoostAvailability(eBoostAvailability.Disabled)
     Riff_ForceTitanAvailability(eTitanAvailability.Never)
 
@@ -73,6 +74,6 @@ array<string> function PureMode_Changes()
 {
     return [
         "only primary weapons and tacticals"
-        "no sidearms, no titans, no titan weapons, no throwables, no boosts, no melee, no aim assist"
+        "no sidearms, no titans, no titan weapons, no throwables, no boosts, no melee, no weapon pickups, no aim assist"
     ]
 }
